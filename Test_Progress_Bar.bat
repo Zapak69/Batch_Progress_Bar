@@ -1,4 +1,6 @@
 @echo off
+title Test_Progress_Bar.bat
+mode con cols=50 lines=7
 :bar
 cls
 echo.
