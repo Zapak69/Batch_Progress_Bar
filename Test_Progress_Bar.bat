@@ -1,5 +1,6 @@
 @echo off
 :bar
+cls
 echo.
 echo 		Current progress:
 :: How it works:
@@ -9,4 +10,4 @@ echo 		Current progress:
 :: Status: 50% (how many % is filled)
 call ProgressBar 15 2 20 50%
 pause >nul
-goto :bar
+goto bar
