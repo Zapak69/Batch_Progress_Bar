@@ -74,6 +74,6 @@ chcp 65001 >nul
 cls
 call ProgressBar 15 1 40 50
 
-pause
+timeout /t 0 /nobreak >nul
 
 chcp 852 >nul
